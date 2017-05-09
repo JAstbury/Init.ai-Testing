@@ -5,7 +5,7 @@ module.exports = function runLogic(eventData) {
     const client = InitClient.create(eventData, {succeed: resolve})
 
     // Add your custom logic here!
-    client.addTextResponse('Responding from `runLogic.js`!')
+    client.addTextResponse('Hello from Team BBQ sauce!')
     client.done()
   })
 }
