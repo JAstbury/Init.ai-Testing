@@ -4,7 +4,7 @@ module.exports = function runLogic(eventData) {
   return new Promise((resolve) => {
     const client = InitClient.create(eventData, {succeed: resolve})
 
-    const handleGreeting = client.createStep){
+    const handleGreeting = client.createStep({
       satisfied() { return false },
 
       prompt() {
